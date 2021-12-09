@@ -1,8 +1,10 @@
 <script setup lang="ts">
-import DynamicForm from './components/DynamicForm.vue'
 import { FormConfig } from '@/models/FormConfig.ts'
 
+import DynamicForm from '@/components/DynamicForm.vue'
+
 const myConfig: FormConfig = {
+  title: 'My dynamic form',
   fields: [
     {
       id: 0,

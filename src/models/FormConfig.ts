@@ -1,4 +1,5 @@
 export interface FormConfig {
+    title?: string;
     fields: IFormConfigField[]
 }
 
